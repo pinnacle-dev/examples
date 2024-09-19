@@ -1,4 +1,4 @@
-from pilio import (
+from rcs import (
     Pinnacle,
     RCSBasicMessage,
     RCSMediaMessage,
@@ -11,8 +11,8 @@ from pilio import (
 import datetime
 
 pinn = Pinnacle(
-    api_key="ivan-api-key",
-    webhook_url="https://good-coats-stand.loca.lt",
+    api_key=API_KEY,
+    webhook_url=WEBHOOK_URL,
 )
 
 
